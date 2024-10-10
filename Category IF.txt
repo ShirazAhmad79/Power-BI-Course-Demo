@@ -1,0 +1,7 @@
+Category = IF( LEFT('Workshops'[Course id],1)  ="T","Technical",
+
+                        IF( LEFT('Workshops'[Course id],1) ="B","Business",
+ 
+                            IF( LEFT('Workshops'[Course id],1) ="S","Soft Skills")
+                         )                   
+                     )

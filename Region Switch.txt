@@ -1,0 +1,11 @@
+Region = SWITCH(True(), 
+                  [Location]="Amsterdam" ||  
+                  [Location]="London" ||
+                  [Location]="Berlin" || 
+                  [Location]="Paris",  "EMEA", 
+                  [Location]="Beijing","Asia Pacific",
+                  [Location]="New York" ||
+                  [Location]="Baltimore" || 
+                  [Location]="Los Angeles",  "North America", 
+                 "Other"  // else
+               ) 
