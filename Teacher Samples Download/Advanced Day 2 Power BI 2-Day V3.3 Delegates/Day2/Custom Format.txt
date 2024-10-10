@@ -1,0 +1,11 @@
+Training Budget Diff = 
+SUM('Training Budget'[Training Budget]) - SUM('Workshops Final'[Cost])
+
+-- Formatting
+-- positive no; negative no
+
+#,###;(£#,### )
+
+£#,###;(£#,### )
+
+£#,### Under;(£#,### Over)
